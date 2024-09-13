@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease-out;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.bg {
+    width: 120vw;
+    height: 120vw;
+    background-color: #FDE0B4;
+    position: absolute;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+
+    top: -1280px;
+    right: -500px;
+    z-index: -10;
+}
+
+.nav {
+    align-items: center;
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.nav ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    font-size: 20px;
+}
+
+.nav .input {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 465px;
+    height: 30px;
+    padding: 12px;
+    gap: 300px;
+    border-radius: 12px;
+    border: 1px solid #A49E9E;
+    background: 1px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+
+
+}
+
+input {
+    width: 435px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    background: none;
+    border: none;
+}
+
+.nav .input img {
+    position: absolute;
+    left: 77vw;
+    width: 32px;
+    height: 32px;
+
+}
+
+.left {
+    position: absolute;
+    /* width: Hug (505px)px;
+    height: Hug (296px)px; */
+    top: 50vh;
+    left: 5vw;
+    gap: 36px;
+    width: 30vw;
+    /* opacity: 0px; */
+
+}
+
+.left .heading {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #CC4602;
+
+
+}
+
+.left .detail {
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.left button {
+    /* width: Hug (210px)px;
+    height: Hug (68px)px; */
+    /* top: 547px; */
+    /* left: 2410px; */
+    padding: 10px 38px 10px 38px;
+    margin-top: 20px;
+    gap: 20px;
+    border-radius: 39px;
+    background: #CC4602;
+
+
+}
+
+.left button a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: none;
+    color: #F9F9F9;
+
+
+}
+
+.right .shadow {
+    position: absolute;
+    width: 250px;
+    height: 27px;
+    top: 85vh;
+    left: 59vw;
+
+}
+
+.right .img1 {
+    position: absolute;
+    width: 28vw;
+    height: 45VH;
+    top: 42vh;
+    left: 53vw;
+}
+
+.right .img2 {
+    position: absolute;
+    width: 11vw;
+    height: 16vh;
+    top: 45vh;
+    left: 80vw;
+}
+
+.right .img5 {
+    position: absolute;
+    width: 11vw;
+    height: 16vh;
+    top: 45vh;
+    left: 45vw;
+}
+
+.right .img4 {
+    position: absolute;
+    width: 11vw;
+    height: 16vh;
+    top: 30vh;
+    left: 57vw;
+}
+
+.right .img3 {
+    position: absolute;
+    width: 11vw;
+    height: 16vh;
+    top: 30vh;
+    left: 69vw;
+}
+
+.right .shiftleft {
+    height: 10vh;
+    width: auto;
+    position: absolute;
+    top: 50vh;
+    left: 39vw;
+    cursor: pointer;
+}
+
+.right .shiftleft:hover {
+
+    height: 12vh;
+    width: auto;
+}
+
+.right .shiftright {
+    height: 10vh;
+    width: auto;
+    position: absolute;
+    top: 50vh;
+    left: 91vw;
+    cursor: pointer;
+}
+
+.right .shiftright:hover {
+    height: 12vh;
+    width: auto;
+}
